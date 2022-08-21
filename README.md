@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-Mental health being one of the concerns recently motivates me develop something that can be useful to many. ALong with India being one of the top countries in the world to have maximum number of accidents on daily basis motivates me to integrate a feature which might help people save other using Glasgow Coma Scale. GCS is used to measure the conciousness of a person which helps doctors arrange appropriate equipments for a mediacl surgery.
+Mental health is one of the concerns that recently motivates me to develop something that can be useful to many. ALong with India being one of the top countries in the world to have a maximum number of accidents on daily basis motivates me to integrate a feature that might help people save other using Glasgow Coma Scale. GCS is used to measure the consciousness of a person which helps doctors arrange appropriate equipment for medical surgery.
 
 This app focuses on mental health check ups and finding out the Glasgow Coma Scale score of a patient. Along side one can search for psychatrist around and save there reports digitally at one place.  
 
