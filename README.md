@@ -1,16 +1,18 @@
-# mindworks
+# MindWorks
 
 A new Flutter project.
 
-## Getting Started
+Mental health being one of the concerns recently motivates me develop something that can be useful to many. ALong with India being one of the top countries in the world to have maximum number of accidents on daily basis motivates me to integrate a feature which might help people save other using Glasgow Coma Scale. GCS is used to measure the conciousness of a person which helps doctors arrange appropriate equipments for a mediacl surgery.
 
-This project is a starting point for a Flutter application.
+This app focuses on mental health check ups and finding out the Glasgow Coma Scale score of a patient. Along side one can search for psychatrist around and save there reports digitally at one place.  
 
-A few resources to get you started if this is your first Flutter project:
+Initial UI design for the GCS part of the app:
+![13 Pro - 2](https://user-images.githubusercontent.com/81346526/185780481-bd375372-5d57-4a18-b458-ee83efb5f145.png)
+![glasgow coma scale 2](https://user-images.githubusercontent.com/81346526/185780492-c96ff706-6a19-40f8-914d-cb8eab0ff202.png)
+![GCS result 2](https://user-images.githubusercontent.com/81346526/185780496-4a754b89-0115-41a7-a543-e368c70bf2c3.png)
+![hospital list](https://user-images.githubusercontent.com/81346526/185780504-57946c26-0717-49d4-8b8d-40579e4f5b0f.png)
+![hospital booking](https://user-images.githubusercontent.com/81346526/185780508-f8dceb94-cfef-43ac-8b10-c11c35e4164f.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Stack being used as of now:
+* Flutter
+* Firebase
