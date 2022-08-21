@@ -23,7 +23,7 @@ class SignUp extends StatelessWidget {
               width: 150,
               child: Image.asset("assets/white bg.png"),
             ),
-            
+
             SizedBox(height: 100),
             Text(
               "Sign-up",
@@ -49,7 +49,9 @@ class SignUp extends StatelessWidget {
                       ])),
               child: Center(
                 child: GestureDetector(
-                  // onTap: () {Navigator.of(context).push(HomePage())},
+                  onTap: () {
+                    Navigator.of(context).pushNamed("/SecondPage");
+                  },
                   child: Container(
                     height: 45,
                     width: 215,
@@ -73,7 +75,7 @@ class SignUp extends StatelessWidget {
                 ),
               ),
             ),
-        
+
             //signup with apple
             SizedBox(height: 15),
             Container(

@@ -13,12 +13,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Mind Works',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: HomePage(),
-      debugShowCheckedModeBanner: false,
-    );
+        title: 'Mind Works',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        debugShowCheckedModeBanner: false,
+        home: SignUp(),
+        routes: <String, WidgetBuilder>{
+          "/SecondPage": (BuildContext context) => new HomePage()
+        });
   }
 }
