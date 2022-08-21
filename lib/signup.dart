@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mindworks/homepage.dart';
 
 class SignUp extends StatelessWidget {
   const SignUp({Key? key}) : super(key: key);
@@ -20,12 +21,9 @@ class SignUp extends StatelessWidget {
             Container(
               height: 150,
               width: 150,
-              color: Color.fromARGB(255, 212, 212, 212),
+              child: Image.asset("assets/white bg.png"),
             ),
-            SizedBox(height: 20),
-            Text("MindWorks",
-                style: GoogleFonts.zillaSlab(
-                    fontSize: 50, fontWeight: FontWeight.w600)),
+            
             SizedBox(height: 100),
             Text(
               "Sign-up",
@@ -50,28 +48,32 @@ class SignUp extends StatelessWidget {
                         Color(0xff3EB6B6)
                       ])),
               child: Center(
-                child: Container(
-                  height: 45,
-                  width: 215,
-                  padding: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
-                  decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(100)),
-                  child: Center(
-                    child: Row(
-                      children: [
-                        Image.asset("assets/google.png"),
-                        Spacer(),
-                        Text(
-                          "Signup with Google",
-                          style: GoogleFonts.poppins(fontSize: 15),
-                        )
-                      ],
+                child: GestureDetector(
+                  // onTap: () {Navigator.of(context).push(HomePage())},
+                  child: Container(
+                    height: 45,
+                    width: 215,
+                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(100)),
+                    child: Center(
+                      child: Row(
+                        children: [
+                          Image.asset("assets/google.png"),
+                          Spacer(),
+                          Text(
+                            "Signup with Google",
+                            style: GoogleFonts.poppins(fontSize: 15),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),
               ),
             ),
+        
             //signup with apple
             SizedBox(height: 15),
             Container(
